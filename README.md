@@ -11,7 +11,9 @@ Está api referece ao backend da aplicação ToDoAtarefado.
 
 Subir um docker com banco de dados, o padrão utilizado foi Postgres, porém pode alterar e utilizar o banco relacional que desejar.
 
-docker run --name some-postgres -e POSTGRES_PASSWORD=123 -p 5432:5432 -d -e POSTGRES_USER=pdcouto -e POSTGRES_DB=todo postgres
+```bash
+$ docker run --name some-postgres -e POSTGRES_PASSWORD=123 -p 5432:5432 -d -e POSTGRES_USER=pdcouto -e POSTGRES_DB=todo postgres
+```
 
 ## Installation
 
